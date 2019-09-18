@@ -1,0 +1,34 @@
+{
+  "name": "json-placeholder-graphql",
+  "version": "1.0.0",
+  "description": "A simple GraphQL endpoint wrapping the *AWESOME* https://jsonplaceholder.typicode.com/",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martin-Stankard/json-placeholder-graphql.git"
+  },
+  "keywords": [
+    "express",
+    "graphql",
+    "node",
+    "jsonplaceholder"
+  ],
+  "author": "Martin P. Stankard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Martin-Stankard/json-placeholder-graphql/issues"
+  },
+  "homepage": "https://github.com/Martin-Stankard/json-placeholder-graphql#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "nodemon": "^1.18.1"
+  }
+}
